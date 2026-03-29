@@ -1,0 +1,7 @@
+# pip install -r requirements.txt
+# Add your own imports in code as you use each library.
+
+pandas>=2.0,<3
+numpy>=2.0,<3
+PyYAML>=6.0
+scikit-learn>=1.3,<2
