@@ -1,0 +1,12 @@
+# Paths are relative to the repository root unless you change resolution in code.
+
+paths:
+  raw_data: raw-data
+  processed_data: processed-data
+
+random_seed: 42
+
+# Example: use for time-based splits once you have seasons in the data.
+# data:
+#   train_seasons_max: 2023
+#   validation_seasons_min: 2024

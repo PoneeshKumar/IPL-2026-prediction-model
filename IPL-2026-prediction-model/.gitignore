@@ -1,0 +1,28 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+
+# Local secrets / env
+.env
+.env.*
+
+# Large or local data (adjust if you commit small samples)
+raw-data/*
+!raw-data/.gitkeep
+processed-data/*
+!processed-data/.gitkeep
